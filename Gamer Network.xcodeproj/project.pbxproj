@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0672F2E51934596F00408125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F2E41934596F00408125 /* Foundation.framework */; };
+		0672F2E71934596F00408125 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F2E61934596F00408125 /* CoreGraphics.framework */; };
+		0672F2E91934596F00408125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F2E81934596F00408125 /* UIKit.framework */; };
+		0672F2EF1934596F00408125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0672F2ED1934596F00408125 /* InfoPlist.strings */; };
+		0672F2F11934596F00408125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F2F01934596F00408125 /* main.m */; };
+		0672F2F51934596F00408125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F2F41934596F00408125 /* AppDelegate.m */; };
+		0672F2F81934596F00408125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0672F2F61934596F00408125 /* Main.storyboard */; };
+		0672F2FB1934596F00408125 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F2FA1934596F00408125 /* StartViewController.m */; };
+		0672F2FD1934596F00408125 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0672F2FC1934596F00408125 /* Images.xcassets */; };
+		0672F3041934596F00408125 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F3031934596F00408125 /* XCTest.framework */; };
+		0672F3051934596F00408125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F2E41934596F00408125 /* Foundation.framework */; };
+		0672F3061934596F00408125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F2E81934596F00408125 /* UIKit.framework */; };
+		0672F30E1934596F00408125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0672F30C1934596F00408125 /* InfoPlist.strings */; };
+		0672F3101934596F00408125 /* Gamer_NetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F30F1934596F00408125 /* Gamer_NetworkTests.m */; };
+		0672F31A1934597900408125 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F3191934597900408125 /* AudioToolbox.framework */; };
+		0672F31C1934597D00408125 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F31B1934597D00408125 /* CFNetwork.framework */; };
+		0672F31E1934599300408125 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F31D1934599300408125 /* CoreLocation.framework */; };
+		0672F3201934599800408125 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F31F1934599800408125 /* libz.dylib */; };
+		0672F3221934599D00408125 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F3211934599D00408125 /* MobileCoreServices.framework */; };
+		0672F324193459A200408125 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F323193459A200408125 /* QuartzCore.framework */; };
+		0672F326193459B600408125 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F325193459B600408125 /* Security.framework */; };
+		0672F328193459BB00408125 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F327193459BB00408125 /* StoreKit.framework */; };
+		0672F32A193459C200408125 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F329193459C200408125 /* SystemConfiguration.framework */; };
+		0672F32C193459F100408125 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F32B193459F100408125 /* Parse.framework */; };
+		0672F33219345B8800408125 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33019345B8800408125 /* SignUpViewController.m */; };
+		0672F33319345B8800408125 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0672F33119345B8800408125 /* SignUpViewController.xib */; };
+		0672F33719346EBF00408125 /* StringUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33619346EBF00408125 /* StringUtlity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0672F3071934596F00408125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0672F2D91934596E00408125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0672F2E01934596F00408125;
+			remoteInfo = "Gamer Network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0672F2E11934596F00408125 /* Gamer Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamer Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0672F2E41934596F00408125 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0672F2E61934596F00408125 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0672F2E81934596F00408125 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0672F2EC1934596F00408125 /* Gamer Network-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamer Network-Info.plist"; sourceTree = "<group>"; };
+		0672F2EE1934596F00408125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0672F2F01934596F00408125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0672F2F21934596F00408125 /* Gamer Network-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gamer Network-Prefix.pch"; sourceTree = "<group>"; };
+		0672F2F31934596F00408125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0672F2F41934596F00408125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0672F2F71934596F00408125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0672F2F91934596F00408125 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		0672F2FA1934596F00408125 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		0672F2FC1934596F00408125 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0672F3021934596F00408125 /* Gamer NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamer NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0672F3031934596F00408125 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0672F30B1934596F00408125 /* Gamer NetworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamer NetworkTests-Info.plist"; sourceTree = "<group>"; };
+		0672F30D1934596F00408125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0672F30F1934596F00408125 /* Gamer_NetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gamer_NetworkTests.m; sourceTree = "<group>"; };
+		0672F3191934597900408125 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0672F31B1934597D00408125 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0672F31D1934599300408125 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0672F31F1934599800408125 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0672F3211934599D00408125 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0672F323193459A200408125 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0672F325193459B600408125 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0672F327193459BB00408125 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0672F329193459C200408125 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0672F32B193459F100408125 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0672F32F19345B8800408125 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		0672F33019345B8800408125 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		0672F33119345B8800408125 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		0672F33519346EBF00408125 /* StringUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtlity.h; sourceTree = "<group>"; };
+		0672F33619346EBF00408125 /* StringUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtlity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0672F2DE1934596F00408125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F32A193459C200408125 /* SystemConfiguration.framework in Frameworks */,
+				0672F328193459BB00408125 /* StoreKit.framework in Frameworks */,
+				0672F326193459B600408125 /* Security.framework in Frameworks */,
+				0672F324193459A200408125 /* QuartzCore.framework in Frameworks */,
+				0672F3221934599D00408125 /* MobileCoreServices.framework in Frameworks */,
+				0672F3201934599800408125 /* libz.dylib in Frameworks */,
+				0672F32C193459F100408125 /* Parse.framework in Frameworks */,
+				0672F31E1934599300408125 /* CoreLocation.framework in Frameworks */,
+				0672F2E71934596F00408125 /* CoreGraphics.framework in Frameworks */,
+				0672F31C1934597D00408125 /* CFNetwork.framework in Frameworks */,
+				0672F31A1934597900408125 /* AudioToolbox.framework in Frameworks */,
+				0672F2E91934596F00408125 /* UIKit.framework in Frameworks */,
+				0672F2E51934596F00408125 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0672F2FF1934596F00408125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F3041934596F00408125 /* XCTest.framework in Frameworks */,
+				0672F3061934596F00408125 /* UIKit.framework in Frameworks */,
+				0672F3051934596F00408125 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0672F2D81934596E00408125 = {
+			isa = PBXGroup;
+			children = (
+				0672F2EA1934596F00408125 /* Gamer Network */,
+				0672F3091934596F00408125 /* Gamer NetworkTests */,
+				0672F2E31934596F00408125 /* Frameworks */,
+				0672F2E21934596F00408125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0672F2E21934596F00408125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0672F2E11934596F00408125 /* Gamer Network.app */,
+				0672F3021934596F00408125 /* Gamer NetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0672F2E31934596F00408125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0672F32B193459F100408125 /* Parse.framework */,
+				0672F329193459C200408125 /* SystemConfiguration.framework */,
+				0672F327193459BB00408125 /* StoreKit.framework */,
+				0672F325193459B600408125 /* Security.framework */,
+				0672F323193459A200408125 /* QuartzCore.framework */,
+				0672F3211934599D00408125 /* MobileCoreServices.framework */,
+				0672F31F1934599800408125 /* libz.dylib */,
+				0672F31D1934599300408125 /* CoreLocation.framework */,
+				0672F31B1934597D00408125 /* CFNetwork.framework */,
+				0672F3191934597900408125 /* AudioToolbox.framework */,
+				0672F2E41934596F00408125 /* Foundation.framework */,
+				0672F2E61934596F00408125 /* CoreGraphics.framework */,
+				0672F2E81934596F00408125 /* UIKit.framework */,
+				0672F3031934596F00408125 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0672F2EA1934596F00408125 /* Gamer Network */ = {
+			isa = PBXGroup;
+			children = (
+				0672F33419346DCC00408125 /* Utility */,
+				0672F32D19345B4B00408125 /* Login */,
+				0672F32E19345B4B00408125 /* Signup */,
+				0672F2F31934596F00408125 /* AppDelegate.h */,
+				0672F2F41934596F00408125 /* AppDelegate.m */,
+				0672F2F61934596F00408125 /* Main.storyboard */,
+				0672F2F91934596F00408125 /* StartViewController.h */,
+				0672F2FA1934596F00408125 /* StartViewController.m */,
+				0672F2FC1934596F00408125 /* Images.xcassets */,
+				0672F2EB1934596F00408125 /* Supporting Files */,
+			);
+			path = "Gamer Network";
+			sourceTree = "<group>";
+		};
+		0672F2EB1934596F00408125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0672F2EC1934596F00408125 /* Gamer Network-Info.plist */,
+				0672F2ED1934596F00408125 /* InfoPlist.strings */,
+				0672F2F01934596F00408125 /* main.m */,
+				0672F2F21934596F00408125 /* Gamer Network-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0672F3091934596F00408125 /* Gamer NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0672F30F1934596F00408125 /* Gamer_NetworkTests.m */,
+				0672F30A1934596F00408125 /* Supporting Files */,
+			);
+			path = "Gamer NetworkTests";
+			sourceTree = "<group>";
+		};
+		0672F30A1934596F00408125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0672F30B1934596F00408125 /* Gamer NetworkTests-Info.plist */,
+				0672F30C1934596F00408125 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0672F32D19345B4B00408125 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0672F32E19345B4B00408125 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				0672F32F19345B8800408125 /* SignUpViewController.h */,
+				0672F33019345B8800408125 /* SignUpViewController.m */,
+				0672F33119345B8800408125 /* SignUpViewController.xib */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		0672F33419346DCC00408125 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0672F33519346EBF00408125 /* StringUtlity.h */,
+				0672F33619346EBF00408125 /* StringUtlity.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0672F2E01934596F00408125 /* Gamer Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0672F3131934596F00408125 /* Build configuration list for PBXNativeTarget "Gamer Network" */;
+			buildPhases = (
+				0672F2DD1934596F00408125 /* Sources */,
+				0672F2DE1934596F00408125 /* Frameworks */,
+				0672F2DF1934596F00408125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gamer Network";
+			productName = "Gamer Network";
+			productReference = 0672F2E11934596F00408125 /* Gamer Network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0672F3011934596F00408125 /* Gamer NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0672F3161934596F00408125 /* Build configuration list for PBXNativeTarget "Gamer NetworkTests" */;
+			buildPhases = (
+				0672F2FE1934596F00408125 /* Sources */,
+				0672F2FF1934596F00408125 /* Frameworks */,
+				0672F3001934596F00408125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0672F3081934596F00408125 /* PBXTargetDependency */,
+			);
+			name = "Gamer NetworkTests";
+			productName = "Gamer NetworkTests";
+			productReference = 0672F3021934596F00408125 /* Gamer NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0672F2D91934596E00408125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Meep;
+				TargetAttributes = {
+					0672F3011934596F00408125 = {
+						TestTargetID = 0672F2E01934596F00408125;
+					};
+				};
+			};
+			buildConfigurationList = 0672F2DC1934596E00408125 /* Build configuration list for PBXProject "Gamer Network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0672F2D81934596E00408125;
+			productRefGroup = 0672F2E21934596F00408125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0672F2E01934596F00408125 /* Gamer Network */,
+				0672F3011934596F00408125 /* Gamer NetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0672F2DF1934596F00408125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F2FD1934596F00408125 /* Images.xcassets in Resources */,
+				0672F2EF1934596F00408125 /* InfoPlist.strings in Resources */,
+				0672F33319345B8800408125 /* SignUpViewController.xib in Resources */,
+				0672F2F81934596F00408125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0672F3001934596F00408125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F30E1934596F00408125 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0672F2DD1934596F00408125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F2FB1934596F00408125 /* StartViewController.m in Sources */,
+				0672F2F51934596F00408125 /* AppDelegate.m in Sources */,
+				0672F33719346EBF00408125 /* StringUtlity.m in Sources */,
+				0672F33219345B8800408125 /* SignUpViewController.m in Sources */,
+				0672F2F11934596F00408125 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0672F2FE1934596F00408125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672F3101934596F00408125 /* Gamer_NetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0672F3081934596F00408125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0672F2E01934596F00408125 /* Gamer Network */;
+			targetProxy = 0672F3071934596F00408125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0672F2ED1934596F00408125 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0672F2EE1934596F00408125 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0672F2F61934596F00408125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0672F2F71934596F00408125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0672F30C1934596F00408125 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0672F30D1934596F00408125 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0672F3111934596F00408125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0672F3121934596F00408125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0672F3141934596F00408125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer Network/Gamer Network-Prefix.pch";
+				INFOPLIST_FILE = "Gamer Network/Gamer Network-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0672F3151934596F00408125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer Network/Gamer Network-Prefix.pch";
+				INFOPLIST_FILE = "Gamer Network/Gamer Network-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0672F3171934596F00408125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamer Network.app/Gamer Network";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer Network/Gamer Network-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gamer NetworkTests/Gamer NetworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0672F3181934596F00408125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamer Network.app/Gamer Network";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer Network/Gamer Network-Prefix.pch";
+				INFOPLIST_FILE = "Gamer NetworkTests/Gamer NetworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0672F2DC1934596E00408125 /* Build configuration list for PBXProject "Gamer Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0672F3111934596F00408125 /* Debug */,
+				0672F3121934596F00408125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0672F3131934596F00408125 /* Build configuration list for PBXNativeTarget "Gamer Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0672F3141934596F00408125 /* Debug */,
+				0672F3151934596F00408125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0672F3161934596F00408125 /* Build configuration list for PBXNativeTarget "Gamer NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0672F3171934596F00408125 /* Debug */,
+				0672F3181934596F00408125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0672F2D91934596E00408125 /* Project object */;
+}
