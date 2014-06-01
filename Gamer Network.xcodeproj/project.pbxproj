@@ -33,8 +33,12 @@
 		0672F32C193459F100408125 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0672F32B193459F100408125 /* Parse.framework */; };
 		0672F33219345B8800408125 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33019345B8800408125 /* SignUpViewController.m */; };
 		0672F33319345B8800408125 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0672F33119345B8800408125 /* SignUpViewController.xib */; };
-		0672F33719346EBF00408125 /* StringUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33619346EBF00408125 /* StringUtlity.m */; };
-		0672F33C19347E6400408125 /* SignUpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33B19347E6400408125 /* SignUpService.m */; };
+		0672F33C19347E6400408125 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33B19347E6400408125 /* UserService.m */; };
+		412FEDD5193BA6EC00FD1821 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDD4193BA6EC00FD1821 /* User.m */; };
+		412FEDDE193BCEB300FD1821 /* HomescreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDDC193BCEB300FD1821 /* HomescreenViewController.m */; };
+		412FEDDF193BCEB300FD1821 /* HomescreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412FEDDD193BCEB300FD1821 /* HomescreenViewController.xib */; };
+		412FEDE3193BD33B00FD1821 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDE1193BD33B00FD1821 /* LoginViewController.m */; };
+		412FEDE4193BD33B00FD1821 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412FEDE2193BD33B00FD1821 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +60,11 @@
 		0672F2EE1934596F00408125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0672F2F01934596F00408125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0672F2F21934596F00408125 /* Gamer Network-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gamer Network-Prefix.pch"; sourceTree = "<group>"; };
-		0672F2F31934596F00408125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0672F2F41934596F00408125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0672F2F31934596F00408125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		0672F2F41934596F00408125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		0672F2F71934596F00408125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0672F2F91934596F00408125 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
-		0672F2FA1934596F00408125 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		0672F2F91934596F00408125 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ../StartViewController.h; sourceTree = "<group>"; };
+		0672F2FA1934596F00408125 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ../StartViewController.m; sourceTree = "<group>"; };
 		0672F2FC1934596F00408125 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0672F3021934596F00408125 /* Gamer NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamer NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0672F3031934596F00408125 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -80,10 +84,16 @@
 		0672F32F19345B8800408125 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		0672F33019345B8800408125 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		0672F33119345B8800408125 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
-		0672F33519346EBF00408125 /* StringUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtlity.h; sourceTree = "<group>"; };
-		0672F33619346EBF00408125 /* StringUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtlity.m; sourceTree = "<group>"; };
-		0672F33A19347E6400408125 /* SignUpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpService.h; sourceTree = "<group>"; };
-		0672F33B19347E6400408125 /* SignUpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpService.m; sourceTree = "<group>"; };
+		0672F33A19347E6400408125 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		0672F33B19347E6400408125 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		412FEDD3193BA6EC00FD1821 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		412FEDD4193BA6EC00FD1821 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		412FEDDB193BCEB300FD1821 /* HomescreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomescreenViewController.h; sourceTree = "<group>"; };
+		412FEDDC193BCEB300FD1821 /* HomescreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomescreenViewController.m; sourceTree = "<group>"; };
+		412FEDDD193BCEB300FD1821 /* HomescreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomescreenViewController.xib; sourceTree = "<group>"; };
+		412FEDE0193BD33B00FD1821 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		412FEDE1193BD33B00FD1821 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		412FEDE2193BD33B00FD1821 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,15 +173,13 @@
 		0672F2EA1934596F00408125 /* Gamer Network */ = {
 			isa = PBXGroup;
 			children = (
+				412FEDE5193BD4AC00FD1821 /* Startup */,
+				412FEDD6193BBDE800FD1821 /* Home */,
+				412FEDD2193BA6B700FD1821 /* Model */,
 				0672F33919347DEB00408125 /* Services */,
 				0672F33419346DCC00408125 /* Utility */,
 				0672F32D19345B4B00408125 /* Login */,
 				0672F32E19345B4B00408125 /* Signup */,
-				0672F2F31934596F00408125 /* AppDelegate.h */,
-				0672F2F41934596F00408125 /* AppDelegate.m */,
-				0672F2F61934596F00408125 /* Main.storyboard */,
-				0672F2F91934596F00408125 /* StartViewController.h */,
-				0672F2FA1934596F00408125 /* StartViewController.m */,
 				0672F2FC1934596F00408125 /* Images.xcassets */,
 				0672F2EB1934596F00408125 /* Supporting Files */,
 			);
@@ -210,6 +218,9 @@
 		0672F32D19345B4B00408125 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				412FEDE0193BD33B00FD1821 /* LoginViewController.h */,
+				412FEDE1193BD33B00FD1821 /* LoginViewController.m */,
+				412FEDE2193BD33B00FD1821 /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -227,8 +238,6 @@
 		0672F33419346DCC00408125 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				0672F33519346EBF00408125 /* StringUtlity.h */,
-				0672F33619346EBF00408125 /* StringUtlity.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -236,10 +245,41 @@
 		0672F33919347DEB00408125 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				0672F33A19347E6400408125 /* SignUpService.h */,
-				0672F33B19347E6400408125 /* SignUpService.m */,
+				0672F33A19347E6400408125 /* UserService.h */,
+				0672F33B19347E6400408125 /* UserService.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		412FEDD2193BA6B700FD1821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				412FEDD3193BA6EC00FD1821 /* User.h */,
+				412FEDD4193BA6EC00FD1821 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		412FEDD6193BBDE800FD1821 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				412FEDDB193BCEB300FD1821 /* HomescreenViewController.h */,
+				412FEDDC193BCEB300FD1821 /* HomescreenViewController.m */,
+				412FEDDD193BCEB300FD1821 /* HomescreenViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		412FEDE5193BD4AC00FD1821 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				0672F2F31934596F00408125 /* AppDelegate.h */,
+				0672F2F41934596F00408125 /* AppDelegate.m */,
+				0672F2F61934596F00408125 /* Main.storyboard */,
+				0672F2F91934596F00408125 /* StartViewController.h */,
+				0672F2FA1934596F00408125 /* StartViewController.m */,
+			);
+			path = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +360,9 @@
 			files = (
 				0672F2FD1934596F00408125 /* Images.xcassets in Resources */,
 				0672F2EF1934596F00408125 /* InfoPlist.strings in Resources */,
+				412FEDE4193BD33B00FD1821 /* LoginViewController.xib in Resources */,
 				0672F33319345B8800408125 /* SignUpViewController.xib in Resources */,
+				412FEDDF193BCEB300FD1821 /* HomescreenViewController.xib in Resources */,
 				0672F2F81934596F00408125 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,12 +382,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412FEDE3193BD33B00FD1821 /* LoginViewController.m in Sources */,
 				0672F2FB1934596F00408125 /* StartViewController.m in Sources */,
 				0672F2F51934596F00408125 /* AppDelegate.m in Sources */,
-				0672F33719346EBF00408125 /* StringUtlity.m in Sources */,
+				412FEDD5193BA6EC00FD1821 /* User.m in Sources */,
 				0672F33219345B8800408125 /* SignUpViewController.m in Sources */,
 				0672F2F11934596F00408125 /* main.m in Sources */,
-				0672F33C19347E6400408125 /* SignUpService.m in Sources */,
+				0672F33C19347E6400408125 /* UserService.m in Sources */,
+				412FEDDE193BCEB300FD1821 /* HomescreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +426,7 @@
 				0672F2F71934596F00408125 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0672F30C1934596F00408125 /* InfoPlist.strings */ = {
@@ -558,6 +603,7 @@
 				0672F3151934596F00408125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0672F3161934596F00408125 /* Build configuration list for PBXNativeTarget "Gamer NetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +612,7 @@
 				0672F3181934596F00408125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,8 +13,9 @@
 @property (nonatomic) IBOutlet UIButton *chooseGameButton;
 @property (nonatomic) IBOutlet UITextField *usernameTextfield;
 @property (nonatomic) IBOutlet UITextField *passwordTextfield;
-@property (nonatomic) IBOutlet UITextField *confirmPasswordField;
-@property (nonatomic) IBOutlet UITextField *emailTextField;
+@property (nonatomic) IBOutlet UITextField *confirmPasswordTextfield;
+@property (nonatomic) IBOutlet UITextField *emailTextfield;
+@property (nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 - (IBAction)chooseGame:(id)sender;
 

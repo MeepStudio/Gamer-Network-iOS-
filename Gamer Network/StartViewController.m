@@ -8,6 +8,7 @@
 
 #import "StartViewController.h"
 #import "SignUpViewController.h"
+#import "LoginViewController.h"
 
 @interface StartViewController ()
 
@@ -22,7 +23,8 @@
 }
 
 - (IBAction)login:(id)sender {
-    
+    LoginViewController *vc = [[LoginViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (IBAction)signUp:(id)sender {
