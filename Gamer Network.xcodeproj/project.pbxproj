@@ -34,6 +34,7 @@
 		0672F33219345B8800408125 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33019345B8800408125 /* SignUpViewController.m */; };
 		0672F33319345B8800408125 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0672F33119345B8800408125 /* SignUpViewController.xib */; };
 		0672F33719346EBF00408125 /* StringUtlity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33619346EBF00408125 /* StringUtlity.m */; };
+		0672F33C19347E6400408125 /* SignUpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0672F33B19347E6400408125 /* SignUpService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		0672F33119345B8800408125 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		0672F33519346EBF00408125 /* StringUtlity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtlity.h; sourceTree = "<group>"; };
 		0672F33619346EBF00408125 /* StringUtlity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtlity.m; sourceTree = "<group>"; };
+		0672F33A19347E6400408125 /* SignUpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpService.h; sourceTree = "<group>"; };
+		0672F33B19347E6400408125 /* SignUpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,7 @@
 		0672F2EA1934596F00408125 /* Gamer Network */ = {
 			isa = PBXGroup;
 			children = (
+				0672F33919347DEB00408125 /* Services */,
 				0672F33419346DCC00408125 /* Utility */,
 				0672F32D19345B4B00408125 /* Login */,
 				0672F32E19345B4B00408125 /* Signup */,
@@ -227,6 +231,15 @@
 				0672F33619346EBF00408125 /* StringUtlity.m */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		0672F33919347DEB00408125 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0672F33A19347E6400408125 /* SignUpService.h */,
+				0672F33B19347E6400408125 /* SignUpService.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +345,7 @@
 				0672F33719346EBF00408125 /* StringUtlity.m in Sources */,
 				0672F33219345B8800408125 /* SignUpViewController.m in Sources */,
 				0672F2F11934596F00408125 /* main.m in Sources */,
+				0672F33C19347E6400408125 /* SignUpService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
