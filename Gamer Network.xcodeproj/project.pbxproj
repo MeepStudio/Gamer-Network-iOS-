@@ -37,8 +37,9 @@
 		412FEDD5193BA6EC00FD1821 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDD4193BA6EC00FD1821 /* User.m */; };
 		412FEDDE193BCEB300FD1821 /* HomescreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDDC193BCEB300FD1821 /* HomescreenViewController.m */; };
 		412FEDDF193BCEB300FD1821 /* HomescreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412FEDDD193BCEB300FD1821 /* HomescreenViewController.xib */; };
-		412FEDE3193BD33B00FD1821 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FEDE1193BD33B00FD1821 /* LoginViewController.m */; };
-		412FEDE4193BD33B00FD1821 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412FEDE2193BD33B00FD1821 /* LoginViewController.xib */; };
+		41330BA5193BD7A600C39228 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41330BA2193BD7A600C39228 /* LoginViewController.m */; };
+		41330BA6193BD7A600C39228 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41330BA3193BD7A600C39228 /* LoginViewController.xib */; };
+		41330BA9193BE44100C39228 /* SearchUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 41330BA8193BE44100C39228 /* SearchUserService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,7 @@
 		0672F2F71934596F00408125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0672F2F91934596F00408125 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ../StartViewController.h; sourceTree = "<group>"; };
 		0672F2FA1934596F00408125 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ../StartViewController.m; sourceTree = "<group>"; };
-		0672F2FC1934596F00408125 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0672F2FC1934596F00408125 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		0672F3021934596F00408125 /* Gamer NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamer NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0672F3031934596F00408125 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0672F30B1934596F00408125 /* Gamer NetworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamer NetworkTests-Info.plist"; sourceTree = "<group>"; };
@@ -91,9 +92,11 @@
 		412FEDDB193BCEB300FD1821 /* HomescreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomescreenViewController.h; sourceTree = "<group>"; };
 		412FEDDC193BCEB300FD1821 /* HomescreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomescreenViewController.m; sourceTree = "<group>"; };
 		412FEDDD193BCEB300FD1821 /* HomescreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomescreenViewController.xib; sourceTree = "<group>"; };
-		412FEDE0193BD33B00FD1821 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
-		412FEDE1193BD33B00FD1821 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
-		412FEDE2193BD33B00FD1821 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = SOURCE_ROOT; };
+		41330BA1193BD7A600C39228 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		41330BA2193BD7A600C39228 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		41330BA3193BD7A600C39228 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		41330BA7193BE44100C39228 /* SearchUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserService.h; sourceTree = "<group>"; };
+		41330BA8193BE44100C39228 /* SearchUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,15 +176,14 @@
 		0672F2EA1934596F00408125 /* Gamer Network */ = {
 			isa = PBXGroup;
 			children = (
-				412FEDE5193BD4AC00FD1821 /* Startup */,
 				412FEDD6193BBDE800FD1821 /* Home */,
+				41330BA0193BD7A600C39228 /* Login */,
 				412FEDD2193BA6B700FD1821 /* Model */,
 				0672F33919347DEB00408125 /* Services */,
-				0672F33419346DCC00408125 /* Utility */,
-				0672F32D19345B4B00408125 /* Login */,
 				0672F32E19345B4B00408125 /* Signup */,
-				0672F2FC1934596F00408125 /* Images.xcassets */,
+				412FEDE5193BD4AC00FD1821 /* Startup */,
 				0672F2EB1934596F00408125 /* Supporting Files */,
+				41330BA4193BD7A600C39228 /* Utility */,
 			);
 			path = "Gamer Network";
 			sourceTree = "<group>";
@@ -215,16 +217,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0672F32D19345B4B00408125 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				412FEDE0193BD33B00FD1821 /* LoginViewController.h */,
-				412FEDE1193BD33B00FD1821 /* LoginViewController.m */,
-				412FEDE2193BD33B00FD1821 /* LoginViewController.xib */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		0672F32E19345B4B00408125 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,18 +227,13 @@
 			path = Signup;
 			sourceTree = "<group>";
 		};
-		0672F33419346DCC00408125 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
 		0672F33919347DEB00408125 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				0672F33A19347E6400408125 /* UserService.h */,
 				0672F33B19347E6400408125 /* UserService.m */,
+				41330BA7193BE44100C39228 /* SearchUserService.h */,
+				41330BA8193BE44100C39228 /* SearchUserService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +260,7 @@
 		412FEDE5193BD4AC00FD1821 /* Startup */ = {
 			isa = PBXGroup;
 			children = (
+				0672F2FC1934596F00408125 /* Images.xcassets */,
 				0672F2F31934596F00408125 /* AppDelegate.h */,
 				0672F2F41934596F00408125 /* AppDelegate.m */,
 				0672F2F61934596F00408125 /* Main.storyboard */,
@@ -280,6 +268,23 @@
 				0672F2FA1934596F00408125 /* StartViewController.m */,
 			);
 			path = Startup;
+			sourceTree = "<group>";
+		};
+		41330BA0193BD7A600C39228 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				41330BA1193BD7A600C39228 /* LoginViewController.h */,
+				41330BA2193BD7A600C39228 /* LoginViewController.m */,
+				41330BA3193BD7A600C39228 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		41330BA4193BD7A600C39228 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +365,7 @@
 			files = (
 				0672F2FD1934596F00408125 /* Images.xcassets in Resources */,
 				0672F2EF1934596F00408125 /* InfoPlist.strings in Resources */,
-				412FEDE4193BD33B00FD1821 /* LoginViewController.xib in Resources */,
+				41330BA6193BD7A600C39228 /* LoginViewController.xib in Resources */,
 				0672F33319345B8800408125 /* SignUpViewController.xib in Resources */,
 				412FEDDF193BCEB300FD1821 /* HomescreenViewController.xib in Resources */,
 				0672F2F81934596F00408125 /* Main.storyboard in Resources */,
@@ -382,10 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412FEDE3193BD33B00FD1821 /* LoginViewController.m in Sources */,
+				41330BA5193BD7A600C39228 /* LoginViewController.m in Sources */,
 				0672F2FB1934596F00408125 /* StartViewController.m in Sources */,
 				0672F2F51934596F00408125 /* AppDelegate.m in Sources */,
 				412FEDD5193BA6EC00FD1821 /* User.m in Sources */,
+				41330BA9193BE44100C39228 /* SearchUserService.m in Sources */,
 				0672F33219345B8800408125 /* SignUpViewController.m in Sources */,
 				0672F2F11934596F00408125 /* main.m in Sources */,
 				0672F33C19347E6400408125 /* UserService.m in Sources */,

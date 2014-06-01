@@ -18,8 +18,11 @@ typedef NS_ENUM(NSInteger, AlertViewErrorType) {
     ErrorTypeUsernameTooLong,
     ErrorTypeUsernameInvalidFormat,
     ErrorTypeUsernameTaken,
+    ErrorTypeLoginFailed,
     ErrorTypeUnknown,
 };
+
+@class PFObject;
 
 @interface UserService : NSObject
 
@@ -31,5 +34,7 @@ typedef NS_ENUM(NSInteger, AlertViewErrorType) {
 + (BOOL)checkIfEmailIsValid:(NSString *)email;
 
 + (void)displayAlertView:(AlertViewErrorType)errorType;
+
++ (void)loginWithCredentials:(NSString *)username andPassword:(NSString *)password andBlock:(void(^) (BOOL success, PFObject *objects))block;
 
 @end

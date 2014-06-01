@@ -17,6 +17,8 @@
 
 @implementation UserService
 
+#pragma mark - Parse Checks
+
 + (void)checkIfUserIsTaken:(NSString *)username andblock:(void(^)(BOOL success, BOOL isTaken))block {
     PFQuery *query = [PFQuery queryWithClassName:@"Users"];
     [query whereKey:@"username" equalTo:username];
@@ -52,6 +54,32 @@
         }
     }];
 }
+
++ (void)loginWithCredentials:(NSString *)username andPassword:(NSString *)password andBlock:(void (^)(BOOL success, PFObject *objects))block {
+    PFQuery *query = [PFQuery queryWithClassName:@"Users"];
+    [query whereKey:@"username" equalTo:username];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if(!error) {
+            if (objects.count > 0) {
+                PFObject *userObject = [objects firstObject];
+                if ([userObject[@"password"] isEqualToString:password]) {
+                    block(YES,userObject);
+                }
+                else {
+                    block(NO,nil);
+                }
+            }
+            else {
+                block(NO,nil);
+            }
+        }
+        else {
+            block(NO,nil);
+        }
+    }];
+}
+
+#pragma mark - Non-Parse Checks
 
 + (BOOL)checkIfEmailIsValid:(NSString *)email {
     
@@ -120,7 +148,6 @@
 }
 
 + (void)displayAlertView:(AlertViewErrorType)errorType {
-    
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     switch (errorType) {
         case ErrorTypeEmailInvalidFormat:
@@ -171,6 +198,11 @@
         case ErrorTypeUnknown:
             alert.title = @"Unknown error has occured";
             alert.message = @"An unknown error has occured, please try again later";
+            break;
+            
+        case ErrorTypeLoginFailed:
+            alert.title = @"Login failed";
+            alert.message = @"Your username or password is wrong, please check your credentials";
             break;
             
         default:

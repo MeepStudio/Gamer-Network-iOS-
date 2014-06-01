@@ -14,5 +14,6 @@
 @property (nonatomic) NSString *email;
 @property (nonatomic) NSString *password;
 @property (nonatomic) NSString *preferredGame;
+@property (nonatomic) NSString *userId;
 
 @end
