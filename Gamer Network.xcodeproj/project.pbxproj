@@ -40,6 +40,8 @@
 		41330BA5193BD7A600C39228 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41330BA2193BD7A600C39228 /* LoginViewController.m */; };
 		41330BA6193BD7A600C39228 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41330BA3193BD7A600C39228 /* LoginViewController.xib */; };
 		41330BA9193BE44100C39228 /* SearchUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 41330BA8193BE44100C39228 /* SearchUserService.m */; };
+		41330BAE193C402E00C39228 /* FriendsMessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41330BAC193C402E00C39228 /* FriendsMessengerViewController.m */; };
+		41330BAF193C402E00C39228 /* FriendsMessengerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41330BAD193C402E00C39228 /* FriendsMessengerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,9 @@
 		41330BA3193BD7A600C39228 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		41330BA7193BE44100C39228 /* SearchUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserService.h; sourceTree = "<group>"; };
 		41330BA8193BE44100C39228 /* SearchUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserService.m; sourceTree = "<group>"; };
+		41330BAB193C402E00C39228 /* FriendsMessengerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsMessengerViewController.h; sourceTree = "<group>"; };
+		41330BAC193C402E00C39228 /* FriendsMessengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsMessengerViewController.m; sourceTree = "<group>"; };
+		41330BAD193C402E00C39228 /* FriendsMessengerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsMessengerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +181,7 @@
 		0672F2EA1934596F00408125 /* Gamer Network */ = {
 			isa = PBXGroup;
 			children = (
+				41330BAA193C3F4300C39228 /* Friends */,
 				412FEDD6193BBDE800FD1821 /* Home */,
 				41330BA0193BD7A600C39228 /* Login */,
 				412FEDD2193BA6B700FD1821 /* Model */,
@@ -287,6 +293,16 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		41330BAA193C3F4300C39228 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				41330BAB193C402E00C39228 /* FriendsMessengerViewController.h */,
+				41330BAC193C402E00C39228 /* FriendsMessengerViewController.m */,
+				41330BAD193C402E00C39228 /* FriendsMessengerViewController.xib */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -366,6 +382,7 @@
 				0672F2FD1934596F00408125 /* Images.xcassets in Resources */,
 				0672F2EF1934596F00408125 /* InfoPlist.strings in Resources */,
 				41330BA6193BD7A600C39228 /* LoginViewController.xib in Resources */,
+				41330BAF193C402E00C39228 /* FriendsMessengerViewController.xib in Resources */,
 				0672F33319345B8800408125 /* SignUpViewController.xib in Resources */,
 				412FEDDF193BCEB300FD1821 /* HomescreenViewController.xib in Resources */,
 				0672F2F81934596F00408125 /* Main.storyboard in Resources */,
@@ -393,6 +410,7 @@
 				412FEDD5193BA6EC00FD1821 /* User.m in Sources */,
 				41330BA9193BE44100C39228 /* SearchUserService.m in Sources */,
 				0672F33219345B8800408125 /* SignUpViewController.m in Sources */,
+				41330BAE193C402E00C39228 /* FriendsMessengerViewController.m in Sources */,
 				0672F2F11934596F00408125 /* main.m in Sources */,
 				0672F33C19347E6400408125 /* UserService.m in Sources */,
 				412FEDDE193BCEB300FD1821 /* HomescreenViewController.m in Sources */,

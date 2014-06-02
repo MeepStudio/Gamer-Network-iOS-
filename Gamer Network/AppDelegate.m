@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import "StartViewController.h"
+#import "HomescreenViewController.h"
 
 @implementation AppDelegate
 
@@ -21,9 +22,11 @@
     
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    
+//    StartViewController *vc = [sb instantiateViewControllerWithIdentifier:@"StartViewController"];
     
-    StartViewController *vc = [sb instantiateViewControllerWithIdentifier:@"StartViewController"];
+    HomescreenViewController *vc = [[HomescreenViewController alloc] init];
     
     UINavigationController *navcon = [[UINavigationController alloc] initWithRootViewController:vc];
     [self.window setRootViewController:navcon];

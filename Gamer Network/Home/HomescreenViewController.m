@@ -7,6 +7,7 @@
 //
 
 #import "HomescreenViewController.h"
+#import "FriendsMessengerViewController.h"
 
 @interface HomescreenViewController ()
 
@@ -28,7 +29,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Home";
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+#pragma mark - Helper Methods
+
+- (IBAction)friendsList:(id)sender {
+    
 }
 
 @end

@@ -13,4 +13,6 @@
 
 - (id)initWithUser:(User *)user;
 
+- (IBAction)friendsList:(id)sender;
+
 @end
